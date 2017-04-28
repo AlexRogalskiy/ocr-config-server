@@ -12,10 +12,10 @@
 	<description>Config server for OCR sample</description>
 
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.4.1.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<groupId>com.ryanjbaxter.spring.cloud</groupId>
+		<artifactId>ocr-parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 
 	<properties>
@@ -42,7 +42,7 @@
 			<dependency>
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-dependencies</artifactId>
-				<version>Camden.RELEASE</version>
+				<version>Camden.SR6</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
